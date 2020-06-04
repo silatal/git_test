@@ -1,0 +1,30 @@
+body {
+    height: 2000px;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background: red;
+    color: #fff;
+}
+
+.dropdown-menu {
+    z-index: 1111;
+    border: 1px solid blue;
+}
+
+.dropdown-item {
+    font-size: 16px;
+    border-bottom: 1px solid blue;
+}
+
+.dropdown-item:hover {
+    background: #ddd;
+    text-decoration: underline;
+}
