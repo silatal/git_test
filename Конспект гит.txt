@@ -1,0 +1,21 @@
+Создание репозитария
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/silatal/git_test.git
+git push -u origin master
+
+Копирование файла с гита:
+git clone https://github.com/silatal/git_test.git
+
+Добавление одного файла
+git add "index.html" 
+
+Поиск изменений в файлах
+git status
+
+Копирование изменений
+git push
+
+Отслеживание изменений
+git pull
